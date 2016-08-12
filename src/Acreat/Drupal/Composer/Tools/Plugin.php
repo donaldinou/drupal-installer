@@ -6,6 +6,7 @@ namespace Acreat\Drupal\Composer\Tools {
     use Composer\IO\IOInterface;
     use Composer\Script\ScriptEvents;
     use Composer\Script\CommandEvent;
+    use Composer\EventDispatcher\EventSubscriberInterface;
     use Composer\Plugin\PluginInterface;
     use Composer\Plugin\PluginEvents;
 
